@@ -35,8 +35,8 @@ createPlatform(400, 100, 400, 800, "rgb(233, 192, 10)");
 createPlatform(350, 700, 504, 67, "white");
 createPlatform(650, 500, 302, 200, "rgb(173, 157, 84)")
 createPlatform(600, 200, 200, 100, "white")
-createPlatform(600, 200, 50, 50, "black")
-createPlatform(700, 200, 50, 50, "black")
+createPlatform(625, 225, 50, 50, "black")
+createPlatform(725, 225, 50, 50, "black")
 createPlatform(700, 600, 250, 50, "black")
 createPlatform(280, 270, 250, 50, "black")
 createPlatform(280, 500, 125, 50, "black")
@@ -44,10 +44,12 @@ createPlatform(50, 630, 125, 50, "black")
 createPlatform(50, 370, 125, 50, "black")
 createPlatform(300, 200, 125, 25, "black")
 createPlatform(660, 560, 50, 50, "black")
+createFakePlatform(800, 300, 100, 100, "rgb(233, 192, 10)");
 
     // TODO 3 - Create Collectables
 createCollectable("steve", 900, 450);
-createCollectable("diamond", 200, 170, 0.5, 0.7);
+createCollectable("diamond", 190, 170, 0.5, 0.7);
+createCollectable("diamond", 600, 10, 0.5, 0.7);
 
 
 
